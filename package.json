@@ -10,8 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "@gonetone/get-youtube-id-by-url": "^1.0.1",
+    "aws-sdk": "^2.1550.0",
     "db-migrate": "^0.11.14",
     "db-migrate-pg": "^1.5.2",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "googleapis": "^131.0.0",
+    "helmet": "^7.1.0",
+    "path": "^0.12.7",
+    "youtube-dl-exec": "^2.5.5"
   }
 }

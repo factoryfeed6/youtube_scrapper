@@ -24,7 +24,7 @@ exports.up = function (db) {
       scraping_job_id integer NOT NULL REFERENCES scrapping_jobs(id),
       title text,
      description text,
-     duration integer,
+     duration text,
      video_url_s3 text,
      video_url_local text,
      is_disabled boolean DEFAULT false,
